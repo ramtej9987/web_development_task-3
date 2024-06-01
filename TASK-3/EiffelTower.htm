@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&family=Yatra+One&display=swap" rel="stylesheet">
+    <title>Eiffel Tower</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E5E3FC;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        .image-container {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .image-container img {
+            width: 100%;
+            display: block;
+            border-radius: 8px;
+        }
+        .info-container {
+            flex: 1;
+            padding-left: 20px;
+        }
+        .info-container h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+            font-family: "Yatra One", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .info-container p {
+            margin-bottom: 15px;
+            line-height: 1.5;
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+        .info-container li{
+            font-family: "Montserrat Alternates", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+        .info-container .price {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.htm">
+              <h2>Travel Diaries</h2>
+              </a></div>
+            <div class="menu">
+                <div class="menuitem"><a href="PhotoGallery.htm">Photo Gallery</a></div>
+                <div class="menuitem"><a href="TravelTips.htm">Travel Tips</a></div>
+            <div class="menuitem work"><a href="">Destinations</a><ion-icon name="arrow-dropdown"></ion-icon>
+            <div class="workitem">
+              <div class="dev item"><a href="">India</a><ion-icon name="arrow-dropright"></ion-icon>
+                <div class="devitem">
+                    <div class="web item"><a href="TajMahal.htm">Taj Mahal</a></div>
+                    <div class="web item"><a href="PinkCity.htm">The Pink City</a></div>
+                    <div class="web item"><a href="Backwater.htm">Backwaters</a></div>
+                </div>
+              </div>
+              <div class="dev item"><a href="">Paris</a><ion-icon name="arrow-dropright"></ion-icon>
+                <div class="devitem">
+                    <div class="web item"><a href="EiffelTower.htm">Eiffel Tower</a></div>
+                    <div class="web item"><a href="Louvre.htm">Louvre Museum</a></div>
+                    <div class="web item"><a href="Notre.htm">Notre-Dame Cathedral</a></div>
+                </div>
+              </div>
+              <div class="dev item"><a href="">Tokyo</a><ion-icon name="arrow-dropright"></ion-icon>
+                <div class="devitem">
+                    <div class="web item"><a href="Shibuya.htm">Shibuya Crossing</a></div>
+                    <div class="web item"><a href="TokyoTower.htm">Tokyo Tower</a></div>
+                    <div class="web item"><a href="SensoJi.htm">Senso-ji Temple</a></div>
+                </div>
+              </div>
+              <div class="dev item"><a href="">New York City</a><ion-icon name="arrow-dropright"></ion-icon>
+                <div class="devitem">
+                    <div class="web item"><a href="StatueOfLiberty.htm">Statue of Liberty</a></div>
+                    <div class="web item"><a href="CentralPark.htm">Central Park</a></div>
+                    <div class="web item"><a href="TimeSquare.htm">Times Square</a></div>
+                </div>
+              </div>
+              <div class="dev item"><a href="">Sydney</a><ion-icon name="arrow-dropright"></ion-icon>
+                <div class="devitem">
+                    <div class="web item"><a href="OperaHouse.htm">Sydney Opera House</a></div>
+                    <div class="web item"><a href="HarbourBridge.htm">Sydney Harbour Bridge</a></div>
+                    <div class="web item"><a href="BondiBeach.htm">Bondi Beach</a></div>
+                </div>
+              </div>
+              <div class="dev item"><a href="">Rome</a><ion-icon name="arrow-dropright"></ion-icon>
+                <div class="devitem">
+                    <div class="web item"><a href="Colosseum.htm">Colosseum</a></div>
+                    <div class="web item"><a href="VaticanMuseum.htm">Vatican Museums</a></div>
+                    <div class="web item"><a href="Basilica.htm">St. Peter's Basilica</a></div>
+                </div>
+              </div>
+              <div class="dev item"><a href="">Cape Town</a><ion-icon name="arrow-dropright"></ion-icon>
+                <div class="devitem">
+                    <div class="web item"><a href="TableMountain.htm">Table Mountain</a></div>
+                    <div class="web item"><a href="RobbenIsland.htm">Robben Island</a></div>
+                    <div class="web item"><a href="AlfredWaterfront.htm">Alfred Waterfront</a></div>
+                </div>
+              </div>
+            </div>
+            </div>
+                <div class="menuitem"><a href="contacts.htm">Contact us</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://res.cloudinary.com/dyhlvra5e/image/upload/v1716711504/pexels-pixabay-532826_f2ojzo.jpg" alt="Eiffel Tower">
+        </div>
+        <div class="info-container">
+            <h1>Eiffel Tower</h1>
+            <p>The Eiffel Tower is a wrought-iron lattice tower located on the Champ de Mars in Paris, France. It was designed by the engineer Gustave Eiffel and was completed in 1889 as the entrance arch for the 1889 World's Fair. Standing at 330 meters tall, it was the tallest man-made structure in the world until the completion of the Chrysler Building in New York City in 1930. Today, the Eiffel Tower is one of the most recognizable landmarks in the world and is visited by millions of tourists annually.</p>
+            <p>Visiting Hours: 6:00 AM to 7:00 PM (Closed on Fridays)</p>
+            <p>Entry Fee:
+                <span class="price">₹ 50 for Indian citizens</span>,
+                <span class="price">$ 20 for foreign tourists</span>
+            </p>
+            <p><b>Other Information:</b>
+                <ul>
+                    <li>Security regulations apply. Bags and cameras are not allowed inside.</li>
+                    <li>Visitors are required to cover their heads and remove their shoes before entering the mausoleum.</li>
+                    <li>Guided tours are available for an additional fee.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
